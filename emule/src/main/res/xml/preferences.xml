@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+                
+    <PreferenceCategory
+            android:title="Emule Preferences">
+
+        <ListPreference
+            android:dialogTitle="@string/dialog_title_list_preference"
+                android:entries="@array/entries_list_preference"
+                android:entryValues="@array/entryvalues_list_preference"
+            android:key="remote_ip_preference"
+            android:title="Remote IP Address" />
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

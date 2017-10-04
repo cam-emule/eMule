@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uk.ac.cam.cl.emule.AccessPointFragment">
+
+    <!--<Spinner-->
+    <!--android:id="@+id/list_spinner"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:layout_marginBottom="10dp"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:dropDownSelector="@android:drawable/btn_dropdown"-->
+    <!--android:spinnerMode="dropdown"-->
+
+
+    <!--&gt;-->
+
+    <!--</Spinner>-->
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" />
+    <!--android:layout_below="@id/list_spinner"-->
+
+
+</RelativeLayout>
+
+
+    <!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"--><!--xmlns:tools="http://schemas.android.com/tools"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--tools:context="uk.ac.cam.cl.emule.AccessPointFragment">-->
+
+    <!--<Spinner--><!--android:id="@+id/list_spinner"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"></Spinner>-->
+
+    <!--<ListView--><!--android:id="@android:id/list"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"></ListView>--><!--</FrameLayout>-->

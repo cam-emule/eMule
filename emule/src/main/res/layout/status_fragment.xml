@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="uk.ac.cam.cl.emule.StatusFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_layout"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/gradient_background"
+        android:scaleType="centerCrop"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+
+            android:layout_marginTop="76dp"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="Internet Delivered"
+            android:textColor="#FFFFFF"
+            android:textSize="12pt" />
+
+        <TextView
+            android:id="@+id/earnings"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+        <TextView
+            android:id="@+id/gatewayview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:fontFamily="sans-serif"
+            android:padding="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            tools:text="Checking..." />
+
+
+        <TextView
+            android:id="@+id/remoteview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            tools:text="Checking..." />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/sync_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@android:color/darker_gray"
+                android:elevation="4dp"
+                android:enabled="false"
+                android:text="SYNC IAP"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <Button
+                android:id="@+id/button_syncremote"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:background="@android:color/darker_gray"
+                android:elevation="4dp"
+                android:enabled="false"
+                android:text="SYNC VAP"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/file_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/file_view2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/container"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="8sp"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/textview"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:paddingTop="10sp"-->
+    <!--android:text="Welcome to eMule"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Medium" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView2"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="400dp"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Medium" />-->
+
+
+    <!--</LinearLayout>-->
+
+
+</ScrollView>

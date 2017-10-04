@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "816732511970",
+    "firebase_url": "https://emule-151117.firebaseio.com",
+    "project_id": "emule-151117",
+    "storage_bucket": "emule-151117.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816732511970:android:2c495aa6ecc20c55",
+        "android_client_info": {
+          "package_name": "uk.ac.cam.cl.emule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816732511970-7h92lou7rt5jcl1pces6qpr9mknj9bav.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "uk.ac.cam.cl.emule",
+            "certificate_hash": "f8f57d5268455d90893c8e531b0cf8cb310ab10f"
+          }
+        },
+        {
+          "client_id": "816732511970-mve35uosdclkdo3ok918941t8lb2bid0.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "816732511970-ini6a8jdc312eeovgk35823kjtamjcgl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "uk.ac.cam.cl.emule",
+            "certificate_hash": "d1d6bed798a69b422b2c364932c68d1f2fcc81f9"
+          }
+        },
+        {
+          "client_id": "816732511970-44s5idvo03nlhvej2ddqmu4nbdn7rd0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTr3L9LC-gEgi1yNqMVmmStJFzLqyWIGA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816732511970-mve35uosdclkdo3ok918941t8lb2bid0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
